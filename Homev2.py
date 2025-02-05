@@ -304,7 +304,7 @@ elif arquivo_subido and app_subida and compacto:
 
     card_columns4,card_columns5,card_columns6 = st.columns(3)
 
-    with card_columns1:
+    with card_columns4:
         st.write('Área de Floresta plantada')
         if select_arquivo == 'Sítio Ebenezer.geojson':
             st.subheader('0')

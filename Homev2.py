@@ -308,14 +308,14 @@ elif arquivo_subido and app_subida and compacto:
         st.write('Área de Floresta plantada')
         if select_arquivo == 'Sítio Ebenezer.geojson':
             st.subheader('0')
-        else:
+        if select_arquivo == 'poc_test.geojson':
             st.subheader('5,97')
 
     with card_columns2:
         st.write('Excedente de Reserva legal')
         if select_arquivo == 'Sítio Ebenezer.geojson':
             st.subheader('0')
-        else:
+        if select_arquivo == 'poc_test.geojson':
             st.subheader('-0,02')
 
     with card_columns3:

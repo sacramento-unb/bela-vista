@@ -304,21 +304,21 @@ elif arquivo_subido and app_subida and compacto:
 
     card_columns4,card_columns5,card_columns6 = st.columns(3)
 
-    with card_columns1:
+    with card_columns4:
         st.write('Área de Floresta plantada')
         if select_arquivo == 'Sítio Ebenezer.geojson':
             st.subheader('0')
         else:
             st.subheader('5,97')
 
-    with card_columns2:
+    with card_columns5:
         st.write('Excedente de Reserva legal')
         if select_arquivo == 'Sítio Ebenezer.geojson':
             st.subheader('0')
         else:
             st.subheader('-0,02')
 
-    with card_columns3:
+    with card_columns6:
         st.write('Área produtiva ociosa')
         st.subheader('0')
 

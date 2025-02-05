@@ -401,12 +401,11 @@ elif arquivo_subido and app_subida and compacto:
     folium.LayerControl().add_to(m)
     # Faço a plotagem do mapa no dashboard
     st_folium(m,width="100%")
-    img1 = st.columns(1)
-    with img1:
-        merc = 'dados/Subcabecalho.png'
-        merc = Image.open(merc)
-        merc = merc.resize((300, 200))
-        st.image(merc, caption="Legenda", use_column_width=False)
+    
+    merc = 'dados/Subcabecalho.png'
+    merc = Image.open(merc)
+    merc = merc.resize((300, 200))
+    st.image(merc, caption="Legenda", use_column_width=False)
 
     col1_graf,col2_graf,col3_graf,col4_graf = st.columns(4)
 

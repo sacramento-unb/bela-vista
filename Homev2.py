@@ -25,8 +25,6 @@ st.sidebar.title('Menu')
 
 fazendas_select = [_ for _ in os.listdir('fazendas') if _.endswith('.geojson')]
 
-fazendas_select = fazendas_select.sort()
-
 select_arquivo = st.sidebar.selectbox('Selecione a fazenda a ser visualizada',options=fazendas_select)
 
 # Upload de um arquivo

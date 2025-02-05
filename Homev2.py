@@ -402,7 +402,7 @@ elif arquivo_subido and app_subida and compacto:
     # Faço a plotagem do mapa no dashboard
     st_folium(m,width="100%")
 
-    merc = 'dados\Subcabecalho.png'
+    merc = 'dados/Subcabecalho.png'
     merc = Image.open(merc)
     merc = merc.resize((300, 200))
     st.image(merc, caption="Legenda", use_column_width=False)

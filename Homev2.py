@@ -1,4 +1,4 @@
-import streamlit as st
+oimport streamlit as st
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
@@ -18,7 +18,7 @@ import os
 # streamlit_folium -> Biblioteca de integração do streamlit com o folium
 
 # Funções de disposição de elementos na tela
-st.title('POC - Laticínios Bela Vista Floresta Plantada')
+st.title('Estudo APPs e reserva legal')
 st.write('')
 st.write('')
 st.sidebar.title('Menu')

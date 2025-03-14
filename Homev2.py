@@ -9,13 +9,10 @@ from zona_utm import calcular_utm
 from PIL import Image
 import os
 
-# streamlit -> Framework de desenvolvimento de dashboards interativos
+def wide_space_default():
+    st.set_page_config(layout="wide")
 
-# plotly -> Biblioteca de plotagem de gráficos
-
-# folium -> Biblioteca de confecção de mapas
-
-# streamlit_folium -> Biblioteca de integração do streamlit com o folium
+wide_space_default()
 
 # Funções de disposição de elementos na tela
 st.title('POC - Bela vista floresta plantada')

@@ -18,7 +18,7 @@ import os
 # streamlit_folium -> Biblioteca de integração do streamlit com o folium
 
 # Funções de disposição de elementos na tela
-st.title('Estudo APPs e reserva legal')
+st.title('POC - Bela vista floresta plantada')
 st.write('')
 st.write('')
 st.sidebar.title('Menu')
